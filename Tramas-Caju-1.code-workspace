@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Tramas-Caju-1",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../Tramas-Caju/img"
+		}
+	],
+	"settings": {}
+}
