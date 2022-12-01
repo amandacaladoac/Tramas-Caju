@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="tramas.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/x-icon" href="img/Logo-tramas-caju.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,62 +16,116 @@
 </head>
 
 <body>
-
   <header>
     <nav>
-      <div class="nav-container">
-        <img id="logo" src="/atv_senac/tramascaju/img/logo-removebg-preview.png" alt="Logo-tramas-caju">
-        <ul id="menu">
-          <li><a href="#">Quem Somos?</a></li>
-          <li><a href="#">Nossas Cajus</a></li>
-          <li><a href="#">Fale Conosco</a></li>
-          <li><a href="#">Personalize sua Caju</a></li>
-          <img id="caju" src="img/caju.png.png" alt="Caju">
-        </ul>
-
+      <div class="container-fluid bg-warning">
+        <div class="row">
+          <div class="col-4">
+            <img id="logo" src="img/Logo-tramas-caju.png" alt="Logo-tramas-caju">
+          </div>
+          <div class="col-8">
+            <ul id="menu">
+              <li><a href="#">Quem Somos?</a></li>
+              <li><a href="#">Nossas Cajus</a></li>
+              <li><a href="#">Fale Conosco</a></li>
+              <li><a href="#">Personalize sua Caju</a></li>
+              <img id="caju" src="img/caju.png.png" alt="Caju">
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
-  <main class="container-fluid">
-    <div class="bg-dark cor row ">
-      <div class="col">
-        <img id="video" src="img/Vacation-_2_ 2.jpg" alt="video">
+  <main>
+    <div class="container-fluid bg-dark">
+      <div class="cor">
+        <video id="video" src="img/Vacation.mp4" type="video/mp4" preload="auto" controls autoplay loop>
+        </video>
       </div>
     </div>
-    <div class="bg-warning quadrado">
-      <h2 class="alinha">Quem Somos?</h2>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <p class="texto ">Da Clássica plástica à artesanal. Cadeira de praia como<br>
-          item decor e propaganda feitas a mão. Com cores vibrantes<br>
-          e produzidas em material náutico e macramê, a cadeira de<br>
-          praia ganha, cada vez mais, status de item de decoração<br>
-          e tem sido ressignificada a partir de trabalhos manuais.</p>
+    <div class="container">
+      <div class="bg-warning quadrado">
+        <h2 class="alinha">Quem Somos?</h2>
       </div>
-      <div class="col-md-6">
-        <img id="cadeiraquem" src="img/b4353f19-984f-429e-8a4e-2bb4a12ad4ec.jpg" alt="cadeira">
-      </div>
-    </div>
-    <div class="modal-content">
-      <button id="abrir">Saiba Mais <img id="seta" src="img/seta-direita.png" atl="seta-direita">
-      </button>
-      <div id="fade" class="esconder" ></div>
-      <div id="modal" class="esconder">
-        <div class="modal-cabeca">
-          <h2>Qualquer coisa</h2>
-          <button id="close">fechar</button>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="texto ">Da Clássica plástica à artesanal. Cadeira de praia como
+            item decor e propaganda feitas a mão. Com cores vibrantes
+            e produzidas em material náutico e macramê, a cadeira de
+            praia ganha, cada vez mais, status de item de decoração
+            e tem sido ressignificada a partir de trabalhos manuais.</p>
         </div>
-        <div class="modal-corpo">
-          <p>oi oi oi oi oi oi oi oi oi oi</p>
+        <div class="col-md-6">
+          <img id="cadeiraquem" src="img/b4353f19-984f-429e-8a4e-2bb4a12ad4ec.jpg" alt="cadeira">
         </div>
       </div>
+      <div class="modal-content">
+        <button id="abrir">Saiba Mais <img id="seta" src="img/seta-direita.png" atl="seta-direita">
+        </button>
+        <div id="fade" class="esconder"></div>
+        <div id="modal" class="esconder">
+          <div class="modal-cabeca">
+            <h2>Qualquer coisa</h2>
+            <button id="close">fechar</button>
+          </div>
+          <div class="modal-corpo">
+            <p>te amo winnete amo winnete amo winnete amo winnete amo winnete amo winnete amo winnete amo winnete amo
+              winnete amo winnete amo winnete amo winnete amo winnete amo winnete amo winne</p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="container-fluid bg-warning  text-center baixo">
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="alinha2 linha ">Nossas<br>Cajus</h2>
+
+        </div>
+        <div class="col">
+          <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="true"
+            style="width:500px;right: 313px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/foto1.png" class="d-block w-100" alt="foto1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto2.png" class="d-block w-100" alt="foto2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto3.png" class="d-block w-100" alt="foto3">
+              </div>
+              <div class="carousel-item">
+                <img src="img/foto4.png" class="d-block w-100" alt="foto4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
 </body>
-<script src="tramas.js"></script>
+<script src="script.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

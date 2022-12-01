@@ -5,13 +5,8 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
 
+    background-size: cover;
 }
 
 h1,
@@ -49,19 +44,8 @@ nav:after {
 #logo {
     width: 100px;
     height: 100px;
-}
-
-.nav-container ul {
-    float: right;
-    height: 100px;
-    line-height: 100px;
-    margin: 0;
-}
-
-.nav-container li {
-    list-style: none;
-    float: left;
-    margin: 0 15px;
+    display: flex;
+    margin-left: 75%;
 }
 
 .nav-container {
@@ -71,6 +55,22 @@ nav:after {
 
 /*menu*/
 
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin-left: 50%;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -89,17 +89,19 @@ li {
 }
 
 .cor {
-    padding: 325px;
-}
+    margin-top: 100px;
 
+}
 
 #video {
     height: 520px;
-    width: 935px;
+    width: 1000px;
     border-radius: 20px;
-    position: absolute;
-    top: 120px;
-    left: 32%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 10px;
 }
 
 .divisao {
@@ -122,8 +124,6 @@ li {
     text-align: justify;
     line-height: 150px;
     text-indent: 30px;
-
-
 }
 
 .alinha {
@@ -159,7 +159,7 @@ h2 {
 
 .texto {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* botão Saiba mais*/
@@ -191,7 +191,8 @@ h2 {
     background-color: #FFB617;
 }
 
-#fade,#modal{
+#fade,
+#modal {
     transform: .5s;
     opacity: 1;
     pointer-events: all;
@@ -207,11 +208,11 @@ h2 {
     z-index: 5;
 }
 
-#modal{
+#modal {
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
     background-color: #fff;
     width: 500px;
@@ -220,32 +221,57 @@ h2 {
     padding: 1.2rem;
 }
 
-.modal-cabeca{
+.modal-cabeca {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px  solid #ccc;
+    border-bottom: 2px solid #ccc;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
 
 
-#close{
+#close {
     width: 6rem;
     text-decoration: none;
     border: none;
     border-radius: 0.5rem;
     background-color: #F26B6B;
-    color:#fff
+    color: #fff
 }
 
-.modal-corpo p{
+.modal-corpo p {
     margin-bottom: 1rem;
 
 }
 
 #modal.esconder,
-#fade.esconder{
+#fade.esconder {
     opacity: 0;
     pointer-events: none;
+}
+
+
+.alinha2 {
+    color: #582f0e;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+.alinha2 {
+    margin-top: 200px;
+    margin-left: 50%;
+  
+}
+
+.baixo {
+    margin-top: 50px;
+}
+
+.linha{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    width: 200px;
 }
