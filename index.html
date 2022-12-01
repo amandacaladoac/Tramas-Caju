@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="img/Logo-tramas-caju.png">
-    <title>Tramas Caju</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="tramas.css">
+  <link rel="icon" type="image/x-icon" href="img/Logo-tramas-caju.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Tramas Caju</title>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <div class="nav-container">
-                    <img id="logo" src="img/Logo-tramas-caju.png" alt="Logo-tramas-caju">
-                    <ul>
-                        <li><a href="#">Quem Somos?</a></li>
-                        <li><a href="#">Nossas Cajus</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
-                        <li><a href="#">Personalize sua Caju</a></li>
-                        <img id="caju" src="img/caju.png.png" alt="Caju">
-                    </ul>
-                </div>
-            </nav>
-            <div id="">
-            </div>
-        </header>
+
+  <header>
+    <nav>
+      <div class="nav-container">
+        <img id="logo" src="/atv_senac/tramascaju/img/logo-removebg-preview.png" alt="Logo-tramas-caju">
+        <ul id="menu">
+          <li><a href="#">Quem Somos?</a></li>
+          <li><a href="#">Nossas Cajus</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+          <li><a href="#">Personalize sua Caju</a></li>
+          <img id="caju" src="img/caju.png.png" alt="Caju">
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <div class="bg-dark cor row ">
+      <div class="col">
+        <img id="video" src="img/Vacation-_2_ 2.jpg" alt="video">
+      </div>
     </div>
+    <div class="bg-warning quadrado">
+      <h2 class="alinha">Quem Somos?</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="texto ">Da Clássica plástica à artesanal. Cadeira de praia como<br>
+          item decor e propaganda feitas a mão. Com cores vibrantes<br>
+          e produzidas em material náutico e macramê, a cadeira de<br>
+          praia ganha, cada vez mais, status de item de decoração<br>
+          e tem sido ressignificada a partir de trabalhos manuais.</p>
+      </div>
+      <div class="col-md-6">
+        <img id="cadeiraquem" src="img/b4353f19-984f-429e-8a4e-2bb4a12ad4ec.jpg" alt="cadeira">
+      </div>
+    </div>
+    <div class="modal-content">
+      <button id="abrir">Saiba Mais <img id="seta" src="img/seta-direita.png" atl="seta-direita">
+      </button>
+      <div id="fade" class="esconder" ></div>
+      <div id="modal" class="esconder">
+        <div class="modal-cabeca">
+          <h2>Qualquer coisa</h2>
+          <button id="close">fechar</button>
+        </div>
+        <div class="modal-corpo">
+          <p>oi oi oi oi oi oi oi oi oi oi</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
 </body>
+<script src="tramas.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </html>

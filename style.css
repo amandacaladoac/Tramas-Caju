@@ -1,55 +1,52 @@
 /* geral */
-html{
+
+html {
     font-family: 'Courier New', Courier, monospace;
 }
 
-body{
+body {
     margin: 0;
-}
-
-h1, h2, h3, h4, h5, p, span {
-    margin: 0;
-}
-
-.container{
-    max-width: 1920px;
+    padding: 0;
     width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    margin: 0;
+}
+
 
 /* header */
-header{
-    position: relative;
-    top: 0;
-    height: auto;
-    width: 100%;
-}
+
 
 /* navbar */
-nav{
+nav {
     position: fixed;
     top: 0;
-    height: 100%;
+    height: 1px;
     width: 100%;
     z-index: 1;
-    background-color: goldenrod;
     border-bottom: 1px solid;
 }
 
-nav:after{
+nav:after {
     clear: both;
     content: "";
     display: block;
 }
 
-.nav-container{
-    max-width: 1200px;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
 
-}
 
-#logo{
+#logo {
     width: 100px;
     height: 100px;
 }
@@ -65,4 +62,190 @@ nav:after{
     list-style: none;
     float: left;
     margin: 0 15px;
+}
+
+.nav-container {
+    background-color: #FFB617;
+}
+
+
+/*menu*/
+
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+#menu a {
+
+    text-decoration: none;
+    padding: 16px;
+
+}
+
+.cor {
+    padding: 325px;
+}
+
+
+#video {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    position: absolute;
+    top: 120px;
+    left: 32%;
+}
+
+.divisao {
+    background-color: #FFB617;
+}
+
+/* quem somos*/
+
+
+
+.quadrado {
+    width: 412px;
+    height: 162px;
+    padding: auto;
+    margin-top: 15px;
+    box-shadow: 6px 6px #888;
+}
+
+.alinha {
+    text-align: justify;
+    line-height: 150px;
+    text-indent: 30px;
+
+
+}
+
+.alinha {
+    color: #582f0e;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+}
+
+.texto {
+    margin-left: 250px;
+    margin-top: 25px;
+    text-indent: 15px;
+    text-align: justify;
+    position: relative;
+}
+
+#cadeiraquem {
+    width: 450px;
+    padding: auto;
+    border-radius: 20px;
+    position: relative;
+    left: 150px;
+    margin-top: -150px;
+}
+
+#cadeiraquem {
+    box-shadow: -40px 59px 0px 0px #FFB617;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+/* botão Saiba mais*/
+
+
+#seta {
+    width: 10%;
+    padding: auto;
+}
+
+#abrir {
+    width: 110px;
+    left: 250px;
+    top: 10px;
+    position: relative;
+}
+
+#abrir {
+    padding: .6rem .1.6rem;
+    background-color: #FFB617;
+    color: black;
+    border-radius: .25rem;
+    cursor: pointer;
+    opacity: .9;
+    font-size: 1rem;
+}
+
+#open-modal {
+    background-color: #FFB617;
+}
+
+#fade,#modal{
+    transform: .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+
+#modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    background-color: #fff;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+}
+
+.modal-cabeca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px  solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#close{
+    width: 6rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #F26B6B;
+    color:#fff
+}
+
+.modal-corpo p{
+    margin-bottom: 1rem;
+
+}
+
+#modal.esconder,
+#fade.esconder{
+    opacity: 0;
+    pointer-events: none;
 }
