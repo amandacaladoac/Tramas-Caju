@@ -89,15 +89,15 @@ li {
 }
 
 .cor {
-    margin-top: 100px;
-
+    margin-top: 25px;
+    
 }
 
 #video {
     height: 520px;
     width: 1000px;
     border-radius: 20px;
-    position: relative;
+    position: relative; 
     top: 50%;
     left: 50%;
     margin-left: -500px;
