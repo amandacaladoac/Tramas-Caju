@@ -65,22 +65,28 @@ header {
     margin-left: 0%;
 }
 
-
-ul {
-    display: flex;
+/* menu ul*/
+#menu {
+    display:flex;
     list-style: none;
     align-items: center;
 }
 
-li {
+#caju{
+    max-width: 150px;
+     height: 100px;
+}
+/* menu li*/
+#menu {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* menu li*/
 #menu a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: black;
 }
-
+/* menu li*/
 #menu a {
     text-decoration: none;
     padding: 16px;
@@ -88,20 +94,12 @@ li {
     font-weight: bold;
 }
 
-.cor {
-    margin-top: 25px;
-    
-}
-
 #video {
     height: 520px;
-    width: 1000px;
-    border-radius: 20px;
-    position: relative; 
-    top: 50%;
-    left: 50%;
-    margin-left: -500px;
-    margin-top: 10px;
+    width: 100%;
+    position:relative;  
+    top: 5px;
+    margin-top: 5px;
 }
 
 .divisao {
@@ -279,3 +277,55 @@ h2 {
     width: 440px;
     height: 470px;
 }
+
+/*footer*/
+
+.divisão{
+    border-bottom: 20px solid rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+
+#caj{
+     width: 250px;
+     left: 50%;
+     top: 50%;
+}
+
+#linkfooter{
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+}
+
+#linkfooter a{
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+
+#linkfooter{
+    line-height: 50px;
+    
+}
+
+
+
+#linkfooter{
+    margin-top: 50px;
+  	margin-inline: 150px;
+}
+
+.tele{
+    width: 25px;
+}
+
+.sacola{
+    width: 30px;
+}
+
+.cadeirap{
+    width: 35px;
+}
+
+

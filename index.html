@@ -38,8 +38,9 @@
   </header>
   <main>
     <div class="container-fluid bg-dark">
-      <div class="cor">
-        <video id="video" src="img/Vacation.mp4" type="video/mp4" preload="auto"  autoplay loop>
+      <div class="cor ">
+        <video id="video" autoplay loop>
+          <source src="img/Vacation.mp4" type="video/mp4" preload="auto">
         </video>
       </div>
     </div>
@@ -81,9 +82,9 @@
           <h2 class="alinha2 linha ">Nossas<br>Cajus</h2>
 
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="true"
-            style="width:500px;right: 313px;">
+            style="width:500px;right: 200px;">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -122,6 +123,23 @@
         </div>
       </div>
     </div>
+    <footer class="bg-warning">
+      <div class="divisão"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img id="caj" src="img/image.png" alt="caju">
+          </div>
+          <div class="col-6">
+            <ul id="linkfooter">
+              <li><a href="#"><img class="tele" src="img/telefone.png" alt="telefone"> telefone</a></li>
+              <li><a href="#"><img class="sacola" src="img/bolsa-de-compras.png" alt="sacola">Encomende sua Ecobag</a></li>
+              <li><a href="#"><img class="cadeirap" src="img/cadeira-de-praia.png">Encomende sua Caju</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
 
 </body>
