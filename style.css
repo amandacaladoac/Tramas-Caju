@@ -66,7 +66,7 @@ header {
 
 /* menu ul*/
 #menu {
-    display:flex;
+    display: flex;
     list-style: none;
     align-items: center;
 }
@@ -331,13 +331,13 @@ h2 {
 /*Fale Conosco*/
 
 form {
-    margin-top: 16px;
+    margin-top: 20px;
     height: 1500px;
     font-size: 30px;
 }
 
 input{
-    height: 70px;
+    height: 60px;
 }
 
 textarea {
@@ -353,4 +353,133 @@ textarea {
 #faleconosco {
     background-color: #ffc107;
 }
-    
+
+#exampleInput {
+    font-size: 30px;
+}
+
+/* Nossas Cajus */
+
+#mainnossascajus {
+    background-color: #fff;
+}
+
+#baiaformosa1 {
+position: absolute;
+width: 374px;
+height: 389px;
+left: 400px;
+top: 316px;
+border-radius: 62px;
+}
+
+#botaobaiaformosa1 {
+    position: absolute;
+width: 285px;
+height: 39px;
+left: 450px;
+top: 723px;
+background: #FFAF00;
+border-radius: 30px;
+border: 0ch;
+}
+
+#sagi1 {
+    position: absolute;
+width: 365px;
+height: 389px;
+left: 820px;
+top: 316px;
+border-radius: 62px;
+}
+
+#botaosagi {
+    position: absolute;
+width: 284px;
+height: 39px;
+left: 865px;
+top: 723px;
+background: #FFAF00;
+border-radius: 30px;
+border: 0ch;
+}
+
+#saomigueldogostoso1 {
+    position: absolute;
+width: 374px;
+height: 389px;
+left: 1230px;
+top: 316px;
+border-radius: 62px;
+}
+
+#botaosaomiguel {
+    position: absolute;
+width: 285px;
+height: 39px;
+left: 1275px;
+top: 723px;
+background: #FFAF00;
+border-radius: 30px;
+border: 0ch;
+}
+
+#pontanegra {
+    position: absolute;
+width: 374px;
+height: 380px;
+left: 400px;
+top: 857px;
+border-radius: 62px;
+}
+
+#botaopontanegra {
+    position: absolute;
+width: 285px;
+height: 39px;
+left: 450px;
+top: 1260px;
+background: #FFAF00;
+border-radius: 30px;
+border: 0ch;
+}
+
+#genipabu {
+    position: absolute;
+width: 365px;
+height: 380px;
+left: 820px;
+top: 857px;
+border-radius: 62px;
+}
+
+#botaogenipabu {
+    position: absolute;
+width: 285px;
+height: 39px;
+left: 860px;
+top: 1260px;
+background: #FFAF00;
+border-radius: 30px;
+border: 0ch;
+}
+
+#redinha {
+    position: absolute;
+width: 366px;
+height: 380px;
+left: 1225px;
+top: 857px;
+border-radius: 62px;
+}
+
+#botaoredinha {
+    position: absolute;
+width: 285px;
+height: 39px;
+left: 1270px;
+top: 1260px;
+background: #FFAF00;
+border-radius: 30px;
+border: 0ch;
+}
