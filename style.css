@@ -558,3 +558,9 @@ section {
     background: grey;
 
 }
+
+.texto{
+left: 300px;
+text-transform: uppercase;
+color: #582f0e;
+}
