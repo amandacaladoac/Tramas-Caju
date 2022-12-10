@@ -119,11 +119,11 @@ function updatetotal() {
         var price = parseFloat(priceElement.innerText.replace("R$", ""));
         var quantity = quantityElement.value;
         total = total + (price * quantity);
-    }
+    }   
         total = Math.round(total * 100) / 100;
 
         document.getElementsByClassName("total-price")[0].innerText = "R$" + total;
-    
+
 }
 
 
