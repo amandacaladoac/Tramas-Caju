@@ -559,8 +559,8 @@ section {
 
 }
 
-.texto{
-left: 300px;
-text-transform: uppercase;
+.texto2{
+text-align: center;
+margin-top: 50px;
 color: #582f0e;
 }
