@@ -272,7 +272,7 @@ h2 {
 }
 
 .linha {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid #efefde;
     margin-bottom: 1rem;
     padding-bottom: 10px;
     width: 200px;
@@ -287,7 +287,7 @@ h2 {
 /*footer*/
 
 .divisão {
-    border-bottom: 20px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 20px solid #efefde;
     margin-bottom: 1rem;
 }
 
